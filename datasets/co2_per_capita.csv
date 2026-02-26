@@ -1,0 +1,226 @@
+country,year,co2_per_capita
+China,1950,0.145
+India,1950,0.176
+United States,1950,16.481
+China,1951,0.184
+India,1951,0.18
+United States,1951,16.735
+China,1952,0.227
+India,1952,0.186
+United States,1952,16.066
+China,1953,0.232
+India,1953,0.185
+United States,1953,16.213
+China,1954,0.273
+India,1954,0.191
+United States,1954,15.213
+China,1955,0.316
+India,1955,0.203
+United States,1955,16.417
+China,1956,0.35
+India,1956,0.206
+United States,1956,16.941
+China,1957,0.406
+India,1957,0.226
+United States,1957,16.535
+China,1958,0.814
+India,1958,0.23
+United States,1958,15.768
+China,1959,1.103
+India,1959,0.238
+United States,1959,15.986
+China,1960,1.22
+India,1960,0.255
+United States,1960,16.072
+China,1961,0.87
+India,1961,0.27
+United States,1961,15.733
+China,1962,0.691
+India,1962,0.29
+United States,1962,16.034
+China,1963,0.667
+India,1963,0.304
+United States,1963,16.47
+China,1964,0.654
+India,1964,0.291
+United States,1964,16.929
+China,1965,0.692
+India,1965,0.314
+United States,1965,17.375
+China,1966,0.74
+India,1966,0.318
+United States,1966,18.013
+China,1967,0.605
+India,1967,0.312
+United States,1967,18.463
+China,1968,0.634
+India,1968,0.333
+United States,1968,18.92
+China,1969,0.758
+India,1969,0.332
+United States,1969,19.655
+China,1970,0.981
+India,1970,0.333
+United States,1970,20.884
+China,1971,1.077
+India,1971,0.344
+United States,1971,20.746
+China,1972,1.122
+India,1972,0.356
+United States,1972,21.486
+China,1973,1.142
+India,1973,0.358
+United States,1973,22.221
+China,1974,1.142
+India,1974,0.362
+United States,1974,21.23
+China,1975,1.291
+India,1975,0.383
+United States,1975,20.145
+China,1976,1.318
+India,1976,0.391
+United States,1976,20.896
+China,1977,1.421
+India,1977,0.404
+United States,1977,21.273
+China,1978,1.561
+India,1978,0.401
+United States,1978,21.728
+China,1979,1.574
+India,1979,0.412
+United States,1979,21.57
+China,1980,1.52
+India,1980,0.424
+United States,1980,20.579
+China,1981,1.48
+India,1981,0.448
+United States,1981,19.568
+China,1982,1.585
+India,1982,0.452
+United States,1982,18.381
+China,1983,1.646
+India,1983,0.478
+United States,1983,18.34
+China,1984,1.767
+India,1984,0.479
+United States,1984,18.714
+China,1985,1.884
+India,1985,0.515
+United States,1985,18.6
+China,1986,1.953
+India,1986,0.539
+United States,1986,18.438
+China,1987,2.059
+India,1987,0.563
+United States,1987,19.06
+China,1988,2.174
+India,1988,0.594
+United States,1988,19.718
+China,1989,2.171
+India,1989,0.639
+United States,1989,19.788
+China,1990,2.153
+India,1990,0.668
+United States,1990,20.254
+China,1991,2.237
+India,1991,0.696
+United States,1991,19.793
+China,1992,2.306
+India,1992,0.726
+United States,1992,19.949
+China,1993,2.434
+India,1993,0.734
+United States,1993,20.102
+China,1994,2.559
+India,1994,0.759
+United States,1994,20.197
+China,1995,2.747
+India,1995,0.792
+United States,1995,20.23
+China,1996,2.843
+India,1996,0.841
+United States,1996,20.679
+China,1997,2.83
+India,1997,0.859
+United States,1997,20.745
+China,1998,2.682
+India,1998,0.86
+United States,1998,20.775
+China,1999,2.817
+India,1999,0.926
+United States,1999,20.806
+China,2000,2.87
+India,2000,0.933
+United States,2000,21.398
+China,2001,2.912
+India,2001,0.929
+United States,2001,20.767
+China,2002,3.185
+India,2002,0.941
+United States,2002,20.718
+China,2003,3.735
+India,2003,0.957
+United States,2003,20.718
+China,2004,4.002
+India,2004,0.999
+United States,2004,20.874
+China,2005,4.49
+India,2005,1.035
+United States,2005,20.719
+China,2006,4.921
+India,2006,1.103
+United States,2006,20.237
+China,2007,5.261
+India,2007,1.17
+United States,2007,20.28
+China,2008,5.617
+India,2008,1.234
+United States,2008,19.409
+China,2009,5.871
+India,2009,1.316
+United States,2009,17.811
+China,2010,6.37
+India,2010,1.35
+United States,2010,18.225
+China,2011,6.999
+India,2011,1.4
+United States,2011,17.634
+China,2012,7.132
+India,2012,1.507
+United States,2012,16.812
+China,2013,7.21
+India,2013,1.54
+United States,2013,17.099
+China,2014,7.188
+India,2014,1.637
+United States,2014,17.119
+China,2015,7.061
+India,2015,1.681
+United States,2015,16.461
+China,2016,6.943
+India,2016,1.75
+United States,2016,15.935
+China,2017,7.08
+India,2017,1.784
+United States,2017,15.639
+China,2018,7.292
+India,2018,1.888
+United States,2018,16.001
+China,2019,7.526
+India,2019,1.88
+United States,2019,15.5
+China,2020,7.641
+India,2020,1.727
+United States,2020,13.817
+China,2021,7.911
+India,2021,1.892
+United States,2021,14.758
+China,2022,8.218
+India,2022,1.986
+United States,2022,14.802
+China,2023,8.556
+India,2023,2.13
+United States,2023,14.319
+China,2024,8.658
+India,2024,2.201
+United States,2024,14.197
