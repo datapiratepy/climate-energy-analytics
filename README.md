@@ -5,25 +5,25 @@
 
 ## Project Overview
 
-This project analyzes historical CO₂ emissions data to understand long-term environmental and economic patterns.
+This project analyzes historical CO₂ emissions data to understand long-term environmental and economic trends.
 
-The objective was to examine:
+The analysis focuses on:
 
-- How global emissions have evolved over time  
-- How India, China, and the United States compare  
-- Differences in per-capita carbon emissions  
-- The relationship between CO₂ emissions and GDP growth  
+- How emissions have changed over time  
+- Country-level comparison (India, China, United States)  
+- Per-capita emission differences  
+- The relationship between CO₂ emissions and GDP  
 
-The workflow combines **SQL (Google BigQuery)** for structured data analysis and **Python** for cleaning and visualization.
+The workflow integrates **SQL (Google BigQuery)** for structured data querying and **Python (Pandas, Matplotlib)** for cleaning and visualization.
 
 ---
 
-## Objectives
+## Project Objectives
 
 - Perform time-series analysis of CO₂ emissions  
-- Compare emissions across major economies  
-- Analyze per-capita emissions differences  
-- Evaluate correlation between emissions and GDP  
+- Compare total emissions across major economies  
+- Analyze per-capita emission patterns  
+- Study correlation between emissions and economic growth  
 
 ---
 
@@ -35,16 +35,18 @@ The workflow combines **SQL (Google BigQuery)** for structured data analysis and
 - `country` – Country name  
 - `year` – Observation year  
 - `co2` – Total CO₂ emissions (million tonnes)  
-- `co2_per_capita` – Emissions per person (tonnes)  
+- `co2_per_capita` – CO₂ emissions per person (tonnes)  
 - `gdp` – Gross Domestic Product (USD)  
 
-During preprocessing, unnecessary columns were filtered and missing CO₂ values were removed.
+During preprocessing:
+- Population and energy-related columns were filtered out  
+- Rows with missing CO₂ values were removed  
 
 ---
 
 ## Tools & Technologies
 
-- **Google BigQuery** – SQL-based data extraction and querying  
+- **Google BigQuery** – SQL-based querying  
 - **Python (Pandas, Matplotlib)** – Data cleaning and visualization  
 - **Jupyter Notebook** – Analysis environment  
 
@@ -52,61 +54,82 @@ During preprocessing, unnecessary columns were filtered and missing CO₂ values
 
 ## Data Preparation
 
-- Selected relevant columns from the raw dataset  
-- Removed rows with missing CO₂ values  
-- Cleaned and structured dataset using Pandas  
-- Exported cleaned dataset into BigQuery for SQL querying  
+- Selected relevant columns from raw dataset  
+- Removed missing CO₂ values  
+- Structured dataset using Pandas  
+- Exported cleaned dataset into BigQuery  
+- Queried country-specific subsets using SQL  
 
-This ensured consistent and reliable analysis across countries.
+This ensured consistent, analysis-ready data.
 
 ---
 
-## Analysis Performed
+# Analysis & Key Insights
 
-### CO₂ Emissions Over Time (Time-Series Analysis)
+---
 
-- Analyzed emission trends from 1950 onward  
-- Compared India, China, and the United States  
+## India CO₂ Emissions Over Time
 
-**Key Insights:**
-- India’s emissions remained relatively low until the late 20th century, followed by rapid growth after 2000  
+A time-series analysis was conducted specifically for India.
+
+### Observations:
+- Emissions remained relatively low until the mid-20th century  
+- Rapid growth occurred after 2000  
+- Strong upward trajectory in recent decades  
+
+### Insight:
+India’s emission growth reflects industrialization and economic expansion in the 21st century.
+
+---
+
+## Country Comparison: India vs China vs United States
+
+Total emissions were compared across the three major economies.
+
+### Observations:
 - China shows the steepest rise in total emissions  
-- U.S. emissions plateau after ~2005  
+- U.S. emissions plateau after approximately 2005  
+- India shows steady long-term growth  
+
+### Insight:
+China experienced rapid industrial growth, while the U.S. shows signs of stabilization. India is steadily increasing emissions as it develops.
 
 ---
 
-### Per-Capita Emissions Comparison
+## Per-Capita Emissions Comparison
 
-Per-capita emissions were analyzed to measure individual carbon impact.
+Per-capita emissions were analyzed to understand individual carbon impact.
 
-**Key Insights:**
-- The United States historically has the highest per-capita emissions  
-- China’s per-capita emissions are rising rapidly  
+### Observations:
+- United States historically has the highest per-capita emissions  
+- China’s per-capita emissions are rising quickly  
 - India remains significantly lower on a per-capita basis  
 
-This highlights global inequality in climate responsibility.
+### Insight:
+Per-capita analysis highlights global inequality in climate responsibility. Total emissions alone do not reflect individual-level impact.
 
 ---
 
-### CO₂ and GDP Relationship
+## CO₂ Emissions vs GDP Relationship
 
-A correlation analysis was conducted between emissions and GDP growth.
+A correlation analysis was performed between GDP and CO₂ emissions.
 
-**Key Insights:**
-- Strong positive correlation between economic growth and emissions  
+### Observations:
+- Strong positive correlation between emissions and economic growth  
 - China shows tight coupling between GDP and emissions  
-- The United States shows partial decoupling in recent years  
+- The U.S. shows partial decoupling in recent years  
 
-This suggests early signs of emission stabilization in developed economies.
+### Insight:
+While economic growth historically increases emissions, developed economies may be beginning to reduce emission intensity relative to GDP.
 
 ---
 
 ## Repository Structure
 
 ```
-datasets/      → Cleaned dataset used for analysis  
+datasets/      → Cleaned dataset  
 sql/           → BigQuery SQL queries  
-notebooks/     → Python analysis & visualization  
+notebooks/     → Python analysis & visualizations  
 README.md      → Project documentation  
 ```
 
@@ -114,10 +137,10 @@ README.md      → Project documentation
 
 ## Key Takeaways
 
-- Applied SQL for structured data extraction in BigQuery  
-- Conducted time-series and cross-country comparative analysis  
-- Evaluated economic-emission relationships  
+- Applied SQL for structured environmental data analysis  
+- Conducted time-series and comparative country analysis  
+- Evaluated economic-emission correlation  
 - Interpreted per-capita impact differences  
-- Built clear visualizations to communicate insights  
+- Built visualizations to communicate long-term trends  
 
-This project demonstrates practical experience in environmental data analysis, economic correlation studies, and SQL + Python workflow integration. Build interactive dashboard version
+This project demonstrates practical experience in environmental data analytics, economic correlation studies, and SQL + Python integration in a real-world dataset.
